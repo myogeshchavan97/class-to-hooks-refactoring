@@ -1,7 +1,7 @@
 ## To run the application, execute the following commands in sequence:
 
-* yarn install
-* yarn start
+1. yarn install
+2. yarn start
 
 # Getting Started with Create React App
 
