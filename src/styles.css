@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: #dcd3ea;
+}
+
+.header {
+  margin: 1rem auto;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.errorMsg,
+.loading {
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.errorMsg {
+  color: #d86161;
+}
+
+.random-user {
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem;
+}
+
+.user-list {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.user-details {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.user-image img {
+  border-radius: 50%;
+}
+
+.load-more {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.btn-grad {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    #77a1d3 0%,
+    #79cbca 51%,
+    #77a1d3 100%
+  );
+  margin: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .random-user {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
